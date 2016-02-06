@@ -1,0 +1,32 @@
+.foo {
+  color: #000;
+
+  &:hover {
+    color: #333;
+  }
+
+  &:focus {
+    color: #333;
+    text-decoration: underline;
+  }
+}
+
+.bar {
+  color: #000;
+
+  &:hover {
+    color: #333;
+  }
+
+  .baz {
+    &:focus {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
+  .baz {
+    &:hover {
+      color: #333;
+    }
+  }
+}
