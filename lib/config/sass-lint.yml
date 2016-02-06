@@ -82,5 +82,5 @@ rules:
   trailing-semicolon: 1
   final-newline: 1
 
-
+  # Pseudo requirements
   focus-with-hover: 1
